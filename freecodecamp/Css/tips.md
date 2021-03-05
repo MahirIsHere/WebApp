@@ -33,3 +33,13 @@ you can apply multiple classes to an element using its class attribute, by separ
 >An id also has a higher specificity (importance) than a class so if both are applied to the same element and have conflicting styles, the styles of the id will be applied.
 
 > you always reference classes by putting a . in front of their names. You always reference ids by putting a # in front of their names.
+
+>Instead of specifying an element's padding-top, padding-right, padding-bottom, and padding-left properties individually, you can specify them all in one line, like this:
+padding: 10px 20px 10px 20px;
+margin: 10px 20px 10px 20px;
+
+
+>For example, the below code changes the margins of all elements with the attribute type and a corresponding value of radio:
+[type='radio'] {
+  margin: 20px 0px 20px 0px;
+}
