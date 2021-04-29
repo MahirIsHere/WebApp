@@ -1,0 +1,1 @@
+database is mydb and the table name is contact.

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>WeatherForecast Api</title>
+  </head>
+
+    <body>
+        <nav class="navbar navbar-dark bg-secondary mb-3">
+            <div class="container">
+                <a href="#" class="navbar-brand">WeatherForecast <i class="fas fa-cloud-sun"></i> </a>
+            </div>
+        </nav>
+        <div class="container searchContainer">
+            <div class="search card card-body">
+                <h1>WeatherForecast For Any Location On The Globe</h1>
+                <p class="lead">Enter City Name</p>
+                <input type="text" id="searchUser" class="form-control" placeholder="City">
+            </div>
+            <br>
+            <div id="profile"></div>
+        </div>
+        <div class="container text-center mt-2">
+            <button class="btn btn-danger" id="submit">Search</button>
+        </div>
+        <div id="content">
+
+    </div>
+    <footer class="mt-5 p-3 text-center text-dark bg-secondary fixed-bottom ">
+                Mahir Rahman Weather Api &copy;
+            </footer>
+      </body>
+</body>
+        <!-- Scripts -->
+            <script src="fetchdata.js"></script>
+            <script src="myui.js"></script>
+            <script src="myapp.js"></script>
+
+  </body>
+
+</html>

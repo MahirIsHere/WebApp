@@ -1,0 +1,55 @@
+body {
+background-image:url("img2.jpg");
+ background-size: cover;
+}
+img {
+float: right;
+width: 120px;
+}
+
+.clearfix {
+content: "";
+ clear: both;
+ display: table;
+}
+
+.Name {
+  color: rgb(25, 25, 112);
+  margin: auto;
+  font-family:sans-serif;
+  text-align:left;
+}
+
+.Welcome {
+color: rgb(139, 0, 139);
+padding-top: 20px;
+padding-bottom: 20px;
+margin: auto;
+border-bottom:  5px solid rgb(0, 128, 0);
+font-family: cursive;
+text-align: center;
+}
+
+h2 {
+  color: rgb(0, 128, 0);
+border: 2px solid black;
+border-radius: 5px;
+font-family: monospace;
+font-weight: bold;
+}
+
+
+
+p {
+  margin-bottom: 20px ;
+  font-size: large;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.signature {
+  padding-top: 1px;
+  padding-bottom:1px;
+  padding-left: 85%;
+  font-family: sans-serif;
+}

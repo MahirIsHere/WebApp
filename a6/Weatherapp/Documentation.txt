@@ -1,0 +1,40 @@
+Step 1: Fill up form - Enter Location (city name) in my case
+Step 2 fetch url return {weather}
+Step 3 function for object populate(data)
+
+---
+Bootstrap from https://bootswatch.com/
+
+Signed up to https://openweathermap.org/
+
+myapi key - 574a0ebc1a1f4ea65e08a5b3e5dc7d0c in fetchdata.js file
+
+script management in index.htmk must follow the order ->
+<script src="fetchdata.js"></script>
+<script src="myui.js"></script>
+<script src="myapp.js"></script>
+
+Fetch class takes input (user ui input) and mykey and feed it to ui method.
+
+UI is the class in ui.js where the data from fetch is fed into populate(data) by passing
+
+-- process of fetching data
+data.main.name -> name of city
+data.main.temp_max -> temperature maximum
+data.main.temp_min -> temperature minimm
+
+myui.js outputs the data we have requested such as data.name $(data.main.temp_max)
+
+myapp.js call all of these methods
+
+step1 -> instanciate the classes
+constant fd = FetchData()
+consatnt ui = MyUI()
+
+by clicking the submit button we can add listener where button.addEventListener ("click", () => {
+  const currentVal = search.value;
+
+where it will search the city through api and output data.
+
+f12 console Console.log(response.json()) for json data parameters
+-Mahir 29th April 2020
