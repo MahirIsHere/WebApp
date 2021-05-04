@@ -1,7 +1,7 @@
 body {
   padding: 50px 500px;
   font-size: 13px;
-    background-color: deepskyblue;
+    background-color: grey;
 }
 h2 {
   margin-bottom: 20px;
@@ -35,7 +35,7 @@ input:focus, textarea:focus {
 .usersubmit input {
   width: 100px;
   height: 40px;
-  background-color: #474E69;
+  background-color: green;
   color: #FFF;
   border-radius: 3px;
 

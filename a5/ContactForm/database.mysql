@@ -1,0 +1,7 @@
+/*database is in mysql named mydb and the table name is contacts.*/
+
+CREATE DATABASE mydb;
+CREATE TABLE `mydb`.`contacts` ( `name` VARCHAR(50) NULL DEFAULT NULL , `email` VARCHAR(50) NULL DEFAULT NULL , `phone` VARCHAR(50) NULL DEFAULT NULL , `comments` TEXT NULL DEFAULT NULL ) ENGINE = InnoDB;
+//all data type is text for convenience.
+
+sql="INSERT INTO contacts (name, email, phone no., comments) VALUES ('".$Name."','".$Email."', '".$Phone"', '".$comments."')";
